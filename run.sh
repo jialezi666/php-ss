@@ -7,4 +7,4 @@ sed -i 's/443/'$P'/g' /root/Applications/Shadowsocks/config.php
 sed -i 's/1080/'$LOC_PORT'/g' /root/Applications/Shadowsocks/config.php
 sed -i 's/50/'$PROCESS'/g' /root/Applications/Shadowsocks/config.php
 
-php start.php start -d
+php start.php start
