@@ -19,7 +19,7 @@ ENV n=50
 
 WORKDIR /root/
 RUN chmod +x *.sh
-  bash run1.sh
+  ./run1.sh
   
 
 EXPOSE 22 80 443
