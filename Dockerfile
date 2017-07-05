@@ -19,8 +19,7 @@ ENV n=50
 
 WORKDIR /root/
 RUN chmod +x *.sh
-  ./run1.sh
-  
+
 
 EXPOSE 22 80 443
-CMD ["/root/run.sh"]
+CMD ["/root/run.sh","/root/run1.sh"]
