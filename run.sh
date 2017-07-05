@@ -1,6 +1,8 @@
 #!/bin/bash
-nohup bash run1.sh &
 
+service nginx restart
+service php5-fpm restart
+/usr/sbin/sshd
 
 sed -i 's/127.0.0.1/'$s'/g'  /root/Applications/Shadowsocks/config.php
 sed -i 's/aes-256-cfb/'$m'/g' /root/Applications/Shadowsocks/config.php
