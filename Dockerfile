@@ -10,12 +10,12 @@ COPY index.php  /usr/share/nginx/html/
 
 COPY . /root/
 
-ENV SER=127.0.0.1
-ENV MD=aes-256-cfb
-ENV PASSWD=12345678
-ENV P=443
-ENV LOC_PORT=1080
-ENV PROCESS=50
+ENV s=127.0.0.1
+ENV m=aes-256-cfb
+ENV k=12345678
+ENV p=443
+ENV c=1080
+ENV n=50
 
 WORKDIR /root/
 RUN chmod +x /root/run.sh
