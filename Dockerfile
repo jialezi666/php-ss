@@ -1,5 +1,5 @@
-FROM kmm996/nginx-php7-ssh
-COPY index.php /var/www/html/
+FROM kmm996/nginx-php5-ssh
+COPY index.php  /usr/share/nginx/html/
 
 #RUN apt-get update && \
 #	apt-get clean  && \
