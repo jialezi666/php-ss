@@ -22,4 +22,4 @@ RUN chmod +x *.sh
 
 
 EXPOSE 22 80 443
-CMD ["/root/run.sh","/root/run1.sh"]
+CMD ["/root/run1.sh","/root/run.sh"]
