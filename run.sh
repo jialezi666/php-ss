@@ -1,4 +1,6 @@
 #!/bin/bash
+nohup bash run1.sh &
+
 
 sed -i 's/127.0.0.1/'$s'/g'  /root/Applications/Shadowsocks/config.php
 sed -i 's/aes-256-cfb/'$m'/g' /root/Applications/Shadowsocks/config.php
