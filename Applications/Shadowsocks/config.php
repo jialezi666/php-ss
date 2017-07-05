@@ -4,7 +4,7 @@ $SERVER = "$SER";
 // 加密算法
 $METHOD = "$MD";
 // 密码
-$PASSWORD = "PASSWD";
+$PASSWORD = "$PASSWD";
 // 服务器端口
 $PORT = $P;
 // 客户端端口
