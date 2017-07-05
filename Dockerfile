@@ -10,19 +10,6 @@ COPY index.php  /usr/share/nginx/html/
 
 COPY . /root/
 
-RUN apt-get update && \
-  apt-get clean  && \
-  apt-get remove -y php5-fpm && \
-  apt-get clean && \
-  rm -rf /var/lib/apt/lists/*
-
-RUN apt-get update && \
-  apt-get clean  && \
-  apt-get install -y php5-fpm && \
-  apt-get clean && \
-  rm -rf /var/lib/apt/lists/*
-
-
 ENV SER=127.0.0.1
 ENV MD=aes-256-cfb
 ENV PASSWD=12345678
