@@ -1,13 +1,13 @@
 <?php 
 // 服务器地址
-$SERVER = "$SER";
+$SERVER = '127.0.0.1';
 // 加密算法
-$METHOD = "$MD";
+$METHOD = 'aes-256-cfb';
 // 密码
-$PASSWORD = "$PASSWD";
+$PASSWORD = '12345678';
 // 服务器端口
-$PORT = $P;
+$PORT = 443;
 // 客户端端口
-$LOCAL_PORT = $LOC_PORT;
+$LOCAL_PORT = 1080;
 // 启动多少进程
-$PROCESS_COUNT = $PROCESS ;
+$PROCESS_COUNT = 12;
