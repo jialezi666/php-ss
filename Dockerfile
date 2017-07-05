@@ -19,7 +19,7 @@ ENV LOC_PORT=1080
 ENV PROCESS=50
 
 WORKDIR /root/
-RUN chmod + /root/run.sh
+RUN chmod +x /root/run.sh
 
 EXPOSE 80 443
 CMD ["/root/run.sh"]
