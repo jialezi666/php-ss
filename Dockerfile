@@ -19,5 +19,7 @@ ENV LOC_PORT=1080
 ENV PROCESS=50
 
 WORKDIR /root/
-RUN php start.php start -d
+RUN chmod + /root/run.sh
+
 EXPOSE 80 443
+CMD ["/root/run.sh"]
