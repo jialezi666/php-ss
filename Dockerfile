@@ -1,4 +1,7 @@
 FROM kmm996/nginx-php5-ssh
+MAINTAINER jaz <jaz@live.in>
+
+
 COPY index.php  /usr/share/nginx/html/
 
 #RUN apt-get update && \
